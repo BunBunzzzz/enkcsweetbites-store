@@ -1,0 +1,24 @@
+.bounce{
+    position: relative;
+    animation-name: bounce;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    
+  }
+  
+  @keyframes bounce {
+    0%   { left:0px; top:0px;}
+    75%  { left:0px; top:10px;}
+    100% { left:0px; top:0px;}
+  }
+  .fade-in {
+      opacity: 0;
+      transition: opacity 0.9s ease-in-out;
+  }
+  
+  
+  .fade-in.active {
+      opacity: 10;
+      box-shadow: rgb(199, 27, 142) 10px 2px 10px;
+
+  }
